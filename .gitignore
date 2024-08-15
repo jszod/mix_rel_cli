@@ -24,3 +24,15 @@ mix_rel_cli-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Elixir Language Server
+/.elixir_ls/
+
+# MacOS specific
+.DS_Store
+.AppleDouble
+.LSOverrride
+
+# Dialyzer PLTS
+/priv/plts/*.plt
+/priv/plts/*.plt.hash
